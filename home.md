@@ -3,7 +3,7 @@ layout: "page"
 title: Home
 permalink: /home/
 ---
-<!-- 
+
 <style>
 body{
     background-image: url("/assets/background.gif");
@@ -17,7 +17,7 @@ body{
     background-color: white; 
 }
 </style>
--->
+
 
 Who am I? 
 
