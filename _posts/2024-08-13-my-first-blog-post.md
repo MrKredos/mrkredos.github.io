@@ -1,6 +1,7 @@
 ---
 layout: "post"
 title: "Learning Jekyll"
+date:   2024-08-13 22:21:20 +1000
 ---
 
 HELLO WORLD! This is my first blog (feels like cheating because I didn't do much of anything besides writing this)
