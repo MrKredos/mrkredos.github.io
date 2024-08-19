@@ -4,6 +4,7 @@ title: "Milkcrate"
 date:   2024-08-17 22:21:20 +1000
 categories: Journal
 
+
 # I eventually plan on hosting images on the website, but it takes too much space and I haven't figured out a solution for downsizing. That's a job for another day! For now, hosting on other websites seems to be the play. Efficient, cheap, easy and simple. I just looks bad. 
 ---
 

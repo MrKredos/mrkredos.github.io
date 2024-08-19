@@ -1,15 +1,14 @@
 ---
 layout: "post"
-title: "Learning Jekyll"
+title: "My First Blog Post"
 date:   2024-08-13 22:21:20 +1000
 ---
 
-HELLO WORLD! This is my first blog (feels like cheating because I didn't do much of anything besides writing this)
+HELLO WORLD! This is my first blog post :3 (feels like cheating because I didn't do much of anything besides writing this)
 
 For the sake of finishing off my learning for the day, I am writing down what I learned.
 Today I learned how about: 
 - YAML files and how front matter works
-    - It's like configs and stuff
 - How to run jekyll and learned more about localhosting
 - Did not learn how to redirect (need to fix gnome website)
 - When to use markdown and html
