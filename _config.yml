@@ -39,9 +39,10 @@ defaults:
   - 
     scope: 
       path: ""
-      type: "post"
+      type: "posts"
     values:
-        layout: "posts"
+        permalink: /:categories/:title.html
+        layout: "post"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
