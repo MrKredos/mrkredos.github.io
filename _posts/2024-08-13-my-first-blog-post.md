@@ -2,6 +2,7 @@
 layout: "post"
 title: "My First Blog Post"
 date:   2024-08-13 22:21:20 +1000
+categories: Journal
 ---
 
 HELLO WORLD! This is my first blog post :3 (feels like cheating because I didn't do much of anything besides writing this)
