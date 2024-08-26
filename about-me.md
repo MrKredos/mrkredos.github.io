@@ -1,5 +1,5 @@
 ---
-layout: "" 
+layout:  
 # redirect_to: https://youtu.be/KnHmoA6Op1o
 title: Very Important
 
@@ -26,7 +26,7 @@ img {
 */
 </style>
 
-<img id="gnome" src="assets/noggin.png"  alt="gnomed" title="gnomed">
+<img id="gnome" src="assets/noggin.png" alt="gnomed" title="gnomed">
 
 
 
