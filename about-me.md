@@ -26,7 +26,7 @@ img {
 */
 </style>
 
-<img id="gnome" src="assets/noggin.png" href=":/{{baseurl}}" alt="gnomed" title="gnomed">
+<img id="gnome" src="assets/noggin.png"  alt="gnomed" title="gnomed">
 
 
 

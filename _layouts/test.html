@@ -1,6 +1,40 @@
---- 
-layout: default 
---- 
+---
+layout: default
+---
+
+<div class="journal">
+  
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+    
+  {%- endif -%}
+  {{ content }}
 
 
-{{content}}
+  {% if site.paginate %}
+    {% assign posts = paginator.posts %}
+  {% else %}
+    {% assign posts = site.posts %}
+  {% endif %}
+
+  {%- if posts.size > 0 -%}
+    {%- if page.list_title -%}
+      <h2 class="post-list-heading">{{ page.list_title }}</h2>
+    {%- endif -%}
+    <ul class="post-list">
+      {%- assign date_format = site.minima.date_format | default: "%m/%d/%Y" -%}
+      {%- for post in posts -%}
+      {% if post.category == "Test" %}
+      <li>
+            <!-- date and title presented on one line  -->
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.date | date: date_format }} {{ post.title | escape }}
+          </a>
+      </li>
+      {% endif %} 
+      {%- endfor -%}
+
+
+  {%- endif -%}
+
+</div>

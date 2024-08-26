@@ -1,5 +1,5 @@
 --- 
-title: Index 
+title: All Pages 
 layout: all
 permalink: /all.html
 ---
