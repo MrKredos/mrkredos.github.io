@@ -42,7 +42,7 @@
 
     --rotation: 0deg;
 
-    animation: shift 15s infinite linear; // shift is the name, 5 seconds, goes on forever and linear interpolation
+    animation: shift 25s infinite linear; // shift is the name, 5 seconds, goes on forever and linear interpolation
     // flex: 1 1 auto;
     background: linear-gradient(var(--rotation), $c1, $c2, $c3); // c1 c2 c3 are the colours, changed in css/main.scss, we dont actually need to use these 
     background-clip: text;

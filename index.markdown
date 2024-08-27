@@ -7,8 +7,9 @@ title: Home
 
 ---
 
-<!-- 
+
 <style>
+/*
 body{
     background-image: url("/assets/background.gif");
     background-size: cover; 
@@ -17,12 +18,35 @@ body{
     margin:0;
 }
 
+
 .post.h-entry {
     background-color: white; 
 }
-</style>
---> 
+*/
 
+.flex-container {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    gap: 14px; 
+
+}
+.left, .right {
+    display: flex;
+    flex: 1 1 300px;
+    flex-wrap: wrap;
+}
+</style>
+
+<div class="flex-container"> 
+<div class="left"> 
 Living life! I enjoy creating cool experiences and I love learning.
 
 Links
+</div> 
+<div class="right"> 
+<img src="{{base.url}}/assets/R1-09-16.JPG" alt="cloudy, one of my family's cats" >
+<em>Cloudy, one of my family's cats. Aug 2023</em>
+
+</div>
+</div>
