@@ -12,7 +12,7 @@ $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$reg-spacing:     30px;
+$reg-spacing:      30px;
 $small-spacing:    5px; 
 
 $text-color:       #111;
@@ -31,7 +31,10 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
+//colours for the title
+$c1:               #84e07c;
+$c2:               #7CB6E0;
+$c3:               #c56fc1;
 
 // Use media queries like this:
 // @include media-query($on-palm) {

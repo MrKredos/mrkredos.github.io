@@ -10,6 +10,7 @@
     position: relative;
 }
 
+/*
 .site-title {
     font-size: 26px;
     font-weight: 300;
@@ -17,12 +18,39 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+}
+*/ 
+@property --rotation {
+    syntax: "<angle>";
+    inherits: false;
+    initial-value: 0deg;
+}
 
-    &,
-    &:visited {
-        color: $grey-color-dark;
+@keyframes shift {
+    0% {
+        --rotation: 0deg;
+    }
+    100% {
+        --rotation: 360deg;
     }
 }
+
+.site-title { // animation key frames from above, then uses them below.
+    font-size: 50px;
+    letter-spacing: -2px; 
+    margin-bottom: 0px; 
+
+    --rotation: 0deg;
+
+    animation: shift 15s infinite linear; // shift is the name, 5 seconds, goes on forever and linear interpolation
+    // flex: 1 1 auto;
+    background: linear-gradient(var(--rotation), $c1, $c2, $c3); // c1 c2 c3 are the colours, changed in css/main.scss, we dont actually need to use these 
+    background-clip: text;
+  }
+  .site-title a {
+    color: transparent;
+    font: inherit;
+  }
 
 .site-nav {
     float: right;
@@ -175,7 +203,7 @@
     font-size: 40px;
 }
 
-.post-list, .page-list {
+.page-list, .post-list {
     margin-left: 0;
     list-style: none;
 
@@ -253,3 +281,4 @@
 #breadcrumbs {
     margin-bottom: $small-spacing;
 }
+

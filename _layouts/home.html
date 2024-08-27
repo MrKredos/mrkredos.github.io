@@ -11,9 +11,7 @@ layout: default
   {% assign pages = site.pages | sort: 'title' %}
   <ul class="page-list">
   {% for page in pages %}
-    {% unless page.title == "Home" %}
-      <h2 class="page-list-heading">{{ page.list_title }}</h2>
-      
+    {% unless page.title == "Home" %}      
       <li>
         <!-- date and title presented on one line FINISH COMMENT IF UNCOMMENTED -->
         <a class="page-link" href="{{ page.url | relative_url }}">

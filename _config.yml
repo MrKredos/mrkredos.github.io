@@ -21,13 +21,12 @@
 title: mrkredos
 email: getlivinfm@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  For gamers, by gamers B)
+  Get livin' or die tryin' 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "mrkredos.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: patmeharder_
 github_username:  mrkredos
 letterboxd_username: patmeharder
-icon_colours: "#582ed1"
 
 # Build settings
 theme: minima
