@@ -10,7 +10,7 @@ category: Journal
 
 <style>
 .site-title {
-    background: linear-gradient(var(--rotation), #efc72c, #d92e2e, #a81dd9, #2675dc)
+    background: linear-gradient(var(--rotation), #efc72c, #d92e2e, #a81dd9, #2675dc);
     background-clip: text;
 }
 </style>
