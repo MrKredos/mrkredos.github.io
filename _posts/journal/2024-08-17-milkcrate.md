@@ -8,8 +8,15 @@ category: Journal
 # I eventually plan on hosting images on the website, but it takes too much space and I haven't figured out a solution for downsizing. That's a job for another day! For now, hosting on other websites seems to be the play. Efficient, cheap, easy and simple. I just looks bad. 
 ---
 
+<style>
+.site-title {
+    background: linear-gradient(var(--rotation), #efc72c, #d92e2e, #a81dd9, #2675dc)
+    background-clip: text;
+}
+</style>
+
 # Short story
-Today I went out to explore and take photos, and randomly stumbled upon a milk crate and stole it lol
+Today I really wanted a milkcrate but I put it off for another day. I went out to explore and take photos, and randomly stumbled upon a milk crate and stole it lol
 
 ## Long story
 I was looking for a container for the back of my lekker bike, something that is durable and light weight, essentially something that I can put things in that can't fit in my bag when I'm biking. I figured a milk crate would be perfect for this. So, obviously first thing I do is look online for milk crate prices. 
