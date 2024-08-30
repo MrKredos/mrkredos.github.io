@@ -31,6 +31,12 @@
 
           </li>
           {% endif %}
+          {% if site.itchio_username %}
+          <li>
+            {% include icon-itchio.html username=site.itchio_username %}
+
+          </li>
+          {% endif %}
         </ul>
       </div>
 
