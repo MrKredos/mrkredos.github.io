@@ -32,7 +32,6 @@ body{
 
 }
 .left, .right {
-    display: flex;
     flex: 1 1 300px;
     flex-wrap: wrap;
 }
@@ -40,9 +39,21 @@ body{
 
 <div class="flex-container"> 
 <div class="left"> 
-Living life! I enjoy creating cool experiences and I love learning.
-
-Links
+<p> Hi, I'm Patrick! I like sunsets, long walks on sandy beaches, not allowed to be within 50 metres from a school. </p>
+<h2>Links</h2> 
+{% assign pages = site.pages | sort: 'title' %}
+<ul class="page-list">
+    {% for page in pages %}
+        {% unless page.title == "Home" %}      
+            <li>
+            <a class="page-link" href="{{ page.url | relative_url }}">
+            {{ page.title | escape }}
+            </a>
+            </li>
+            
+        {% endunless %}
+    {% endfor %}
+</ul>
 </div> 
 <div class="right"> 
 <img src="{{base.url}}/assets/R1-09-16.JPG" alt="cloudy, one of my family's cats" >
@@ -50,3 +61,4 @@ Links
 
 </div>
 </div>
+
