@@ -4,6 +4,10 @@ title: About
 permalink: /about/
 ---
 
+I've done a some things, I will list them eventually. 
+
+A Computer Science Graduate who does not know what to do for a living. 
+
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
 You can find the source code for Minima at GitHub:

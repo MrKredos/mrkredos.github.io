@@ -34,6 +34,7 @@
         --rotation: 360deg;
     }
 }
+ 
 
 .site-title { // animation key frames from above, then uses them below.
     font-size: 50px;
@@ -44,7 +45,7 @@
 
     animation: shift 25s infinite linear; // shift is the name, 5 seconds, goes on forever and linear interpolation
     // flex: 1 1 auto;
-    background: linear-gradient(var(--rotation), $c1, $c2, $c3); // c1 c2 c3 are the colours, changed in css/main.scss, we dont actually need to use these 
+    background: linear-gradient(var(--rotation), #84e07c, #57cbcf, #ffaffb, #57cbcf); // c1 c2 c3 are the colours, changed in css/main.scss, we dont actually need to use these 
     background-clip: text;
   }
   .site-title a {

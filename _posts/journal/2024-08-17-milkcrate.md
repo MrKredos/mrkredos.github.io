@@ -9,6 +9,14 @@ category: Journal
 ---
 
 <style>
+@keyframes shift {
+    0% {
+        --rotation: 135deg;
+    }
+    100% {
+        --rotation: 495deg;
+    }
+}
 .site-title {
     background: linear-gradient(var(--rotation), #efc72c, #d92e2e, #a81dd9, #2675dc);
     background-clip: text;
