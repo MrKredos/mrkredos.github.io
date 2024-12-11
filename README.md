@@ -19,7 +19,7 @@ Add OBS assets \
 non essential:\
 Gaming\
     My trashy games \
-    Game design and Games I love\
+    Games I love\
         Javascript visuals for posters \
             Some ideas I had for this:\
                 Mouse cursor will tilt the poster\

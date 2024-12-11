@@ -9,7 +9,10 @@ dl, dd, ol, ul, figure {
 }
 
 
-
+hr {
+    margin: $small-spacing 0px $small-spacing;
+    color: black;
+}
 /**
  * Basic styling
  */

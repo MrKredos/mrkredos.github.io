@@ -2,7 +2,7 @@
 layout: post
 title: Feeling lost, too many opportunities and moving forward
 date: 2024-08-26 18:21:20 +1000
-category: Journal
+category: Thoughts
 
 ---
 
