@@ -1,58 +1,66 @@
----
-layout: default
----
+<style>
+  body {
+    background-color: black;
 
-<div class="thoughts">
-  
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-    
-  {%- endif -%}
-  {{ content }}
+  }
+
+  .site-footer {
+    display: none;
+  }
+</style>
+
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
 
 
-  {% if site.paginate %}
-    {% assign posts = paginator.posts %}
-  {% else %}
-    {% assign posts = site.posts %}
-  {% endif %}
+  {% include header.html %}
+  {% include nav-links.html %}
+  {% include breadcrumbs.html %}
+  <div class="page-content">
+    <div class="wrapper">
+      {{ content }}
 
-  {%- if posts.size > 0 -%}
-    {%- if page.list_title -%}
-      <h2 class="post-list-heading">{{ page.list_title }}</h2>
-    {%- endif -%}
-    <ul class="post-list">
-      {%- assign date_format = site.minima.date_format | default: "%m/%d/%Y" -%}
-      {%- for post in posts -%}
-      {% if post.category == "Thoughts" %}
-      <li>
-            <!-- date and title presented on one line  -->
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.date | date: date_format }} {{ post.title | escape }}
+      <!-- 
+      loads site within site. too hard to figure out, especially when i have index available. 
+      <iframe src="{{ site.baseurl }}/thoughts/thoughts-list.html" style="border: none; width: 100%; height: 80%; "
+        title="description"></iframe>
+        
+        -->
+      
+      <div class="thoughts">
+
+        {% assign posts = site.posts %}
+
+        {%- if posts.size > 0 -%}
+        {%- if page.list_title -%}
+        <h2 class="post-list-heading">{{ page.list_title }}</h2>
+        {%- endif -%}
+        <div class="thought-list">
+          {%- assign date_format = site.minima.date_format | default: "%m/%d/%Y" -%}
+          {%- for post in posts -%}
+          {% if post.category == "Thoughts" %}
+
+
+          <a class="thoughts-post-title" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
           </a>
-      </li>
-      {% endif %} 
-      {%- endfor -%}
-    
+          <div class="thoughts-post-link">{{ post.date | date: date_format }}</div>
 
-    {% if site.paginate %}
-      <div class="pager">
-        <ul class="pagination">
-        {%- if paginator.previous_page %}
-          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-          <li><div class="current-page">{{ paginator.page }}</div></li>
-        {%- if paginator.next_page %}
-          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-        </ul>
+          {% endif %}
+          {%- endfor -%}
+          {%- endif -%}
+
+        </div>
       </div>
-    {%- endif %}
+    </div>
+  </div>
 
-  {%- endif -%}
+  {% include footer.html %}
 
-</div>
+</body>
+
+</html>

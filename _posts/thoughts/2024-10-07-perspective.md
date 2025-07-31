@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: thoughts-post
 title: Growing up
 date: 2024-10-07 09:24:00 +1000
 category: Thoughts
@@ -18,7 +18,7 @@ I've always envied only-child kids because they usually don't have to work for l
 - No presence of dad
     - Dad slept during the day and worked at night so we never really got to see him outside of weekends, and even then he would have a wack sleep pattern.
         - I would look up to my mum as the sole role model and she would always be stressing about raising us, and 
-    - I think this just affected how i should be approaching life
+    - I think this just affected how I should be approaching life
 - Anxiety
     - I think this was the culimation of everything said previously.
 
@@ -29,4 +29,3 @@ I think he's an only child, he mentioned it must be so great to have a lot of si
 
 I feel a bit more grateful about my experiences looking back, instead of looking back in resent. Sometimes all it takes is someone to actually listen to what you have to say. It's rare nowadays, I must say! 
 
-[]

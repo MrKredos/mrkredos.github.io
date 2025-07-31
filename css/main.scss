@@ -3,10 +3,11 @@
 ---
 @charset "utf-8";
 
+$baseurl: "{{ site.baseurl }}";
 
 
 // Our variables
-$base-font-family: Helvetica, Verdana, sans-serif;
+$base-font-family: "Noto Sans", Helvetica, Verdana, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -15,9 +16,9 @@ $base-line-height: 1.5;
 $reg-spacing:      30px;
 $small-spacing:    5px; 
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$text-color:       #e5efff;
+$background-color: #232327;
+$brand-color:      #abcfff;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -26,15 +27,15 @@ $grey-color-dark:  darken($grey-color, 25%);
 $svg-colour: #828282;
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    1000px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
 
 //colours for the title
-$c1:               #84e07c;
-$c2:               #57cbcf;
-$c3:               #c56fc1;
+$c1:               #99c496;
+$c2:               #84bbbd;
+$c3:               #d6a8d4;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -48,8 +49,6 @@ $c3:               #c56fc1;
         @content;
     }
 }
-
-
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

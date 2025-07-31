@@ -1,18 +1,31 @@
 /**
  * Reset some basic elements
  */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+figure {
     margin: 0;
     padding: 0;
 }
-
 
 hr {
     margin: $small-spacing 0px $small-spacing;
     color: black;
 }
+
 /**
  * Basic styling
  */
@@ -31,9 +44,19 @@ body {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+ol,
+dl,
+figure,
 %vertical-rhythm {
     margin-bottom: $reg-spacing / 2;
 }
@@ -53,7 +76,7 @@ img {
 /**
  * Figures
  */
-figure > img {
+figure>img {
     display: block;
 }
 
@@ -67,14 +90,18 @@ figcaption {
 /**
  * Lists
  */
-ul, ol {
+ul,
+ol {
     margin-left: $reg-spacing;
+    list-style-type: circle;
 }
 
 li {
-    > ul,
-    > ol {
-         margin-bottom: 0;
+
+    >ul,
+    >ol {
+        margin-bottom: 0;
+
     }
 }
 
@@ -83,8 +110,14 @@ li {
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: $base-font-weight;
+    border-bottom: 1px solid #717b7d;
 }
 
 
@@ -95,17 +128,21 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: $brand-color;
     text-decoration: none;
+    text-decoration-color: transparent;
+    transition: 0.3s;
+
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: darken($brand-color, 5%);
     }
 
     &:hover {
         color: $text-color;
         text-decoration: underline;
+        text-decoration-color: inherit;
     }
-}
 
+}
 
 
 /**
@@ -145,7 +182,7 @@ pre {
     padding: 8px 12px;
     overflow-x: auto;
 
-    > code {
+    >code {
         border: 0;
         padding-right: 0;
         padding-left: 0;
@@ -159,7 +196,7 @@ pre {
  */
 .wrapper {
     max-width: -webkit-calc(#{$content-width} - (#{$reg-spacing} * 2));
-    max-width:         calc(#{$content-width} - (#{$reg-spacing} * 2));
+    max-width: calc(#{$content-width} - (#{$reg-spacing} * 2));
     margin-right: auto;
     margin-left: auto;
     padding-right: $reg-spacing;
@@ -168,7 +205,7 @@ pre {
 
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$reg-spacing}));
-        max-width:         calc(#{$content-width} - (#{$reg-spacing}));
+        max-width: calc(#{$content-width} - (#{$reg-spacing}));
         padding-right: $reg-spacing / 2;
         padding-left: $reg-spacing / 2;
     }
@@ -193,9 +230,15 @@ pre {
 /**
  * Icons
  */
+
+ @keyframes colorChange {
+    0%{fill: $svg-colour }
+    100%{fill: $text-color }
+}
+
 .icon {
 
-    > svg {
+    >svg {
         display: inline-block;
         width: 16px;
         height: 16px;
@@ -203,6 +246,19 @@ pre {
 
         path {
             fill: $svg-colour;
+
         }
+
+    }
+
+    &:hover {
+        >svg {
+            path {
+                fill: $text-color;
+                animation: colorChange 0.3s ease-in-out;
+            }
+        }
+
+
     }
 }

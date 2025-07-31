@@ -1,7 +1,7 @@
 ---
-layout:  
+layout: 
 # redirect_to: https://youtu.be/KnHmoA6Op1o
-title: Very Important
+title: _Important
 
 #trying to change the style of the image so it just stretches to fit the screen, or it's really big that theres not much  white space. 
 ---
@@ -25,8 +25,10 @@ img {
 }
 */
 </style>
+<a href="{{ site.baseurl }}/">
+  <img id="gnome" src="assets/noggin.png" alt="gnomed" title="gnomed">
+</a>
 
-<img id="gnome" src="assets/noggin.png" alt="gnomed" title="gnomed">
 
 
 

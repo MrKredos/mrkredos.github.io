@@ -9,17 +9,33 @@ layout: default
     max-width: 600px;
     text-align: center;
   }
+
   h1 {
     margin: 30px 0;
     font-size: 4em;
     line-height: 1;
     letter-spacing: -1px;
   }
+
+  #breadcrumbs {
+    display: none;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .site-footer {
+    display: none;
+  }
 </style>
 
-<div class="container">
-  <h1>404</h1>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+
+<div class="container">
+  <div class="site-title">
+    <h1><a href="{{ site.baseurl }}/">404</a></h1>
+  </div>
+  </header>
+  <p><strong>quit snooping around, will ya!</strong></p>
 </div>

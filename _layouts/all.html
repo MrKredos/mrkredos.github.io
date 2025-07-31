@@ -1,46 +1,38 @@
 ---
 layout: default
---- 
+---
 <div class="all">
-  
-    {%- if page.title -%}
-      <h1 class="page-heading">{{ page.title }}</h1>
-      
-    {%- endif -%}
 
+    {{ content }}
+    {% assign pages = site.pages %}
+    {% assign posts = site.posts %}
+    {% assign pagesAndPosts = pages | concat: posts | sort: 'date' | reverse %}
+    {% assign date_format = site.minima.date_format | default: "%m/%d/%Y" %}
 
-{% assign pages = site.pages %}
-{% assign posts = site.posts %}
-{% assign pagesAndPosts = pages | concat: posts | sort: 'date' | reverse  %}
-{% assign date_format = site.minima.date_format | default: "%m/%d/%Y" %}
-
-<!--  
+    <!--  
 sifts through the array (grabs all posts and pages, and then adds them to one array)
 the for loop then assigns pageAndPost as a single variable, in which we can access
 the information from each point in the array. 
 -->
-{% for pageAndPost in pagesAndPosts %}
-    {%- if pageAndPost.list_title -%}
-    <h2 class="post-list-heading">{{ pageAndPost.list_title }}</h2>
-    {%- endif -%}
     <ul class="post-list">
-    <li>
-        {% if pageAndPost.title %}
+        {% for pageAndPost in pagesAndPosts %}
+        <li>
+            {% if pageAndPost.title %}
             <!-- date and title presented on one line  -->
             <a class="post-link" href="{{ pageAndPost.url | relative_url }}">
-                {%- if pageAndPost.date -%} 
-                    {{ pageAndPost.date | date: date_format }} {{ pageAndPost.title | escape }}
+                {%- if pageAndPost.date -%}
+                {{ pageAndPost.date | date: date_format }} {{ pageAndPost.title | escape }}
                 {%- else -%}
-                    xx/xx/xxxx {{ pageAndPost.title | escape }}
+                {{ pageAndPost.title | escape }}
                 {%- endif -%}
             </a>
             </h3>
             {%- if site.show_excerpts -%}
-                {{ pageAndPost.excerpt }}
+            {{ pageAndPost.excerpt }}
             {%- endif -%}
-        {% endif %}
-    </li>
-{% endfor %}
-</ul>
+            {% endif %}
 
-{{ content }}
+        </li>
+        {% endfor %}
+
+    </ul>

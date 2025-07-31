@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: thoughts-post
 title: Feeling lost, too many opportunities and moving forward
-date: 2024-08-26 18:21:20 +1000
+date: 2024-08-26 12:21:20 +1000
 category: Thoughts
 
 ---

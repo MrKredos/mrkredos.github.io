@@ -1,0 +1,80 @@
+<!--
+<div class="wrapper">
+    <div class="nav-links">
+        {% assign pages = site.pages | sort: 'title' %}
+        <ul class="page-list">
+            {% for page in pages %}
+            {% unless page.title == null or page.title == "Home" %}
+
+            <li>
+                <a class="page-link" id="{{page.title}}-link" href="{{ page.url | relative_url }}">
+
+                    {{ page.title | escape }}
+                </a>
+            </li>
+
+            {% endunless %}
+            {% endfor %}
+        </ul>
+
+    </div>
+</div>
+-->
+<div class="wrapper">
+    <div class="nav-links">
+        <ul class="page-list">
+            <li>
+                <a class="page-link" id="About-link" href="/about/">
+
+                    About
+                </a>
+            </li>
+            <li>
+                <a class="page-link" id="Projects-link" href="/projects/">
+
+                    Projects
+                </a>
+            </li>
+            <li>
+                <a class="page-link" id="Photography-link" href="/photography/">
+
+                    Photography
+                </a>
+            </li>
+            <li>
+                <a class="page-link" id="All Pages-link" href="/all/">
+
+                    Index
+                </a>
+            </li>
+           <li>
+                <a class="page-link" id="misc-link" href="/misc/">
+
+                    Misc
+                </a>
+            </li>
+
+            <li>
+                <a class="page-link" id="Thoughts-link" href="/thoughts/">
+
+                    Thoughts
+                </a>
+            </li>
+            <li>
+                <a class="page-link" id="Short Stories-link" href="/short-stories/">
+
+                    Short Stories
+                </a>
+            </li>
+            <!-- 
+            <li>
+                <a class="page-link" id="_Important-link" href="/stuff.html">
+
+                    very important
+                </a>
+            </li>
+            --> 
+
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+---
+layout: default-no-extra
+---
+
+<div class="thoughts">
+
+    {{ content }}
+
+    {% assign posts = site.posts %}
+
+    {%- if posts.size > 0 -%}
+    {%- if page.list_title -%}
+    <h2 class="post-list-heading">{{ page.list_title }}</h2>
+    {%- endif -%}
+    <div class="thought-list">
+        {%- assign date_format = site.minima.date_format | default: "%m/%d/%Y" -%}
+        {%- for post in posts -%}
+        {% if post.category == "Thoughts" %}
+
+
+        <a class="thoughts-post-title" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+        </a>
+        <div class="thoughts-post-link">{{ post.date | date: date_format }}</div>
+
+        {% endif %}
+        {%- endfor -%}
+        {%- endif -%}
+
+    </div>
+</div>

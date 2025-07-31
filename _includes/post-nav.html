@@ -1,0 +1,21 @@
+<div class="post-nav">
+    {% if page.next %}
+    <a class="prev-post" href="{{ page.next.url }}">&laquo; {{ page.next.title }} <strong> {{ page.next.category}} </strong> </a>
+    {% else %}
+    <a class="prev-post">&laquo; UP TO DATE!</a>
+    {% endif %}
+
+
+
+    {% if page.previous %}
+    <a class="next-post" href="{{ page.previous.url }}"><strong>{{ page.previous.category }} </strong> {{ page.previous.title }} &raquo;</a>
+    {% else %}
+    <a class="next-post">end of the line pal &raquo;</a>
+    {% endif %}
+</div>
+<!--
+<div class="post-nav" style="justify-content: center;">
+    <a class="return-post"  href="/thoughts/">RETURN</a>
+</div>
+
+--> 
