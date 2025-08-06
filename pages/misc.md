@@ -8,15 +8,13 @@ permalink: /misc/
 
 for stuff that doesn't really fit into any of my categories
 
-# [Gaming ]({{ base.url}}/misc/gaming )
-
+# Gaming related
+[My Gaming Journey]({{ base.url}}/misc/gaming)
 
 {% assign posts = site.posts %}
 
 {%- if posts.size > 0 -%}
-{%- if page.list_title -%}
-<h2 class="post-list-heading">{{ page.list_title }}</h2>
-{%- endif -%}
+
 <div class="misc-list">
     {%- assign date_format = site.minima.date_format | default: "%m/%d/%Y" -%}
     {%- for post in posts -%}

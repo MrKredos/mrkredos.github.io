@@ -93,11 +93,15 @@ figcaption {
 ul,
 ol {
     margin-left: $reg-spacing;
+    
+}
+
+ul {
     list-style-type: circle;
 }
 
 li {
-
+    
     >ul,
     >ol {
         margin-bottom: 0;
@@ -168,10 +172,12 @@ blockquote {
  */
 pre,
 code {
+    font-family: 'JetBrains Mono';
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
-    background-color: #eef;
+    background-color: $text-color;
+    color: $background-color; 
 }
 
 code {
