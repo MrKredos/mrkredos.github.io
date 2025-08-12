@@ -16,5 +16,4 @@ Fighting Game related, I help host events and here are some of the cool OBS Asse
 - [OMEGA 4]({{base.url}}/projects/omega_4.html)
 
 
-## [Mini Projects](/projects/mini-projects/) 
-WIP
+See [Misc]({{base.url}}/misc/) for smaller scale projects

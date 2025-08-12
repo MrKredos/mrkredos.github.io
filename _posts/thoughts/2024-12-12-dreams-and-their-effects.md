@@ -1,5 +1,5 @@
 ---
-layout: thoughts-post
+layout: post
 title: Dreams and their effects
 date: 2024-12-12 06:27:00 +1100
 category: Thoughts

@@ -37,7 +37,8 @@ body {
 <img src="{{base.url}}/assets/omega_2/logo.png">
 
 ### Intro
-<ins>Theme: </ins> 
+<ins>Theme: </ins> Space Invaders, where we are defending the turf against invaders (non-WSU players). 
+
 OMEGA is a fighting game tournament ran twice a year in Parramatta, NSW, organised by the Western Sydney Fighting Game Club for Western Sydney University, a student run club by a bunch of ex-students and non-students (and a few students).
 
 # Showcase

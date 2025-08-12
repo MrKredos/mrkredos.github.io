@@ -1,7 +1,7 @@
 ---
 layout: post
 title: fightsticks
-date:   2025-07-29 12:21:20 +1000
+date: 2025-07-29 12:21:20 +1000
 category: Misc
 ---
 
@@ -24,13 +24,15 @@ Commissioned; ~$500AUD incl. shipping
 ![waifu]({{base.url}}/assets/fightsticks/waifu.jpg)
 It's a great controller, but not very portable. I treat it like an art piece more than anything. This is probably my favourite "artwork" I've curated. In quotes because I didn't draw anything, all of that is just official art. 
 
-## [Snack Box Micro PS4 edition](https://junkfoodarcades.com/products/snack-box-micro-leverless-controller)<br>
+## [Snack Box Micro PS4 edition](https://junkfoodarcades.com/products/snack-box-micro-leverless-controller)<br> 
 ~$500AUD incl. shipping 
 ![snackbox]({{base.url}}/assets/fightsticks/snackbox.jpg)
 I don't mean to smear the name of JunkFood but the quality control is not great (a lot of my friends have issues with these controllers; be it port issues, button issues),. the build itself is quite flimsy for the price (plastic housing) and not only that but I bought the PS4 version which means I can't even play PS5 games without a converter which adds like $100AUD+. I suppose that's nobody's fault but my own, but it stings. My controller works but it has some problems, some of the buttons double press or don't activate at all and probably need replacing, and this is only after a year of regular use, which I think is kind of ridiculous considering the price point.
 
 [Hori Real Arcade Pro. Kai $200AUD](https://www.amazon.com.au/Hori-Real-Arcade-Pro-Playstation/dp/B00SULMRI4)<br> 
 $150AUD second hand, from some guy in Sydney, NSW
+
+This was my main driver for a while, however the stick would stop reading my down inputs and it gave me a reason to upgrade (since PS5s were going to be more prevalent and this is PS4 only). 
 
 [MadCatz Tournament Edition](https://www.coleka.com/en/video-games/arcade-stick/mad-catz-arcade-fight-stick-tournament-edition-white_i1507286)<br> 
 $200AUD second hand, from some guy in Merrylands, NSW

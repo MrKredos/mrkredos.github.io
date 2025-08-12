@@ -1,5 +1,5 @@
 ---
-layout: thoughts-post
+layout: post
 title: Christmas and Boardgames
 date: 2024-12-25 22:31:00 +1000
 category: Thoughts

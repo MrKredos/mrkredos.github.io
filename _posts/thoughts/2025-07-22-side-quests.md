@@ -1,5 +1,5 @@
 ---
-layout: thoughts-post
+layout: post
 title: Side quests and getting side tracked
 date: 2025-07-22 11:21:20 +1000
 category: Thoughts

@@ -2,8 +2,8 @@
 layout: post
 title: movie screensaver :) 
 date: 2024-08-26
-category: Mini Projects
-permalink: /projects/mini-projects/screensaver
+category: Misc
+permalink: /misc/screensaver.html
 ---
 
 <script type="application/processing"> 
@@ -52,6 +52,6 @@ void draw() {
 } 
 </script>
   <canvas id="sketch"></canvas>
-  <p id="label">Movie Screensaver</p>
+Movie Screensaver
 
-Created using processing.js
+Created using processing.js, testing out capabilities for future projects! 

@@ -4,7 +4,7 @@
 
 layout: home
 title: Home
-
+permalink: /
 ---
 
 
@@ -29,7 +29,7 @@ title: Home
 
 <div class="flex-container"> 
 <div class="left"> 
-<p> Hi, I'm Patrick! I figured I'd learn a bit more about websites so decided to create one to, well, learn more about making websites, and maybe also to share my projects and thoughts.</p>
+<p> Hi, I'm Patrick! Computer Science graduate, event coordinator, hobbyist, gamer...  </p>
 
 </div> 
 <div class="right"> 

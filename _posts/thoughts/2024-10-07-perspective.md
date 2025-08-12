@@ -1,5 +1,5 @@
 ---
-layout: thoughts-post
+layout: post
 title: Growing up
 date: 2024-10-07 09:24:00 +1000
 category: Thoughts

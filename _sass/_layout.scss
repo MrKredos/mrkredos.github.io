@@ -19,6 +19,11 @@
     src: url ("../assets/fonts/RawhideRaw2016.ttf");
 }
 
+@font-face {
+    font-family: "ArtDeco MN";
+    src: url ("../assets/fonts/ArtdecoMNRegular.ttf");
+}
+
 /* latin-ext */
 @font-face {
   font-family: 'JetBrains Mono';
@@ -301,6 +306,7 @@
 }
 
 .page-list {
+    gap: 24px; 
     /*
     border-bottom-width: 1px;
   border-bottom-style: solid;

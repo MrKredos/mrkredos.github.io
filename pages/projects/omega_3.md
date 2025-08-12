@@ -50,7 +50,7 @@ body {
 <img src="{{base.url}}/assets/omega_3/logo.png">
 
 ### Intro
-<ins>Theme:</ins> Wrestling. 
+<ins>Theme:</ins> Wrestling, WWE RAW, etc. Pretty self explanatory.
 
 OMEGA is a fighting game tournament ran twice a year in Parramatta, NSW, organised by the Western Sydney Fighting Game Club for Western Sydney University, a student run club by a bunch of ex-students and non-students (and a few students).
 
@@ -62,7 +62,7 @@ It's hard to see due to the compression and the low bitrate, but there is a play
 
 Playlist is just music from WWE, unfortunately some of the music was copyrighted so we had to mute parts of the vod. I think in future we will only be using copyright free music, or better yet, music will only show on the livestream but not the VOD. 
 
-# [FGC Scoreboard]({{site.url}}/projects/fgcscoreboard)
+# [FGC Scoreboard]({{base.url}}/projects/fgcscoreboard)
 Replaced StreamControl, as it was too cumbersome to use. 
 
 See link for how it works and how to use it. 

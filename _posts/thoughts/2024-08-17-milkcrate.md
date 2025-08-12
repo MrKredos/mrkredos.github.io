@@ -1,5 +1,5 @@
 ---
-layout: thoughts-post
+layout: post
 title: "Milkcrate"
 date:   2024-08-17 22:21:20 +1000
 category: Thoughts

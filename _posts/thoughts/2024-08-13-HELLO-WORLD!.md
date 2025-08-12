@@ -1,5 +1,5 @@
 ---
-layout: thoughts-post
+layout: post
 title: HELLO WORLD!
 date:   2024-08-13 22:21:20 +1000
 category: Thoughts

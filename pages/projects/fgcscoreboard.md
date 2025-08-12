@@ -10,7 +10,7 @@ permalink: /projects/fgcscoreboard.html
 }
 
 </style>
-![scoreboard]({{site.url}}/assets/fgcscoreboard/scoreboardpanel.png)
+![scoreboard]({{base.url}}/assets/fgcscoreboard/scoreboardpanel.png)
 
 # Intro
 Github: [https://github.com/MrKredos/FGCScoreBoardOBS](https://github.com/MrKredos/FGCScoreBoardOBS) 

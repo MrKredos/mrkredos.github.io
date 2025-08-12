@@ -1,5 +1,5 @@
 ---
-layout: thoughts-post
+layout: post
 title: Daily night walks and procrastination
 date: 2024-12-03 22:00:00 +1000
 category: Thoughts

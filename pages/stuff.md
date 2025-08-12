@@ -2,7 +2,7 @@
 layout: 
 # redirect_to: https://youtu.be/KnHmoA6Op1o
 title: _Important
-
+permalink: /stuff.html
 #trying to change the style of the image so it just stretches to fit the screen, or it's really big that theres not much  white space. 
 ---
 

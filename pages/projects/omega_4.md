@@ -34,11 +34,9 @@ body {
 
 .site-title {
     letter-spacing: 0px;
-    background: linear-gradient(var(--rotation), #e24cb0, #967eeb);
     background-clip: text; 
-    font-family: "Rawhide Raw 2016"; 
+    font-family: "ArtDeco MN"; 
     text-transform: none; 
-    text-shadow: red 2px 5px;
     a {
         color: white; 
     }
@@ -61,7 +59,7 @@ OMEGA is a fighting game tournament ran twice a year in Parramatta, NSW, organis
 </video>
 Playlist was just classical music. I thought all classical music was copyright free because of how old they are, but apparently different recordings have copyright on them... so some of the vods had been caught because of that. But not a big deal since we don't make any money from this. 
 
-# [FGC Scoreboard]({{site.url}}/projects/fgcscoreboard)
+# [FGC Scoreboard]({{base.url}}/projects/fgcscoreboard)
 Reused from previous OMEGA, with some minor adjustments, namely 4 player capabilities and crew battles. I want to say more but it's all pretty self explanatory I think.
 
 Crew battles creates HTML when adding players, and kills the HTML when removing. It actually works a lot better than my current implementation, so maybe one day I'll rebuild everything from scratch with my current knowledge (never gonna happen knowing me).

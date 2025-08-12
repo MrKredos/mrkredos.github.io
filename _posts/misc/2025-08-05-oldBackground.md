@@ -1,11 +1,10 @@
 ---
-layout: post
+layout: thoughts-post
 title: omega4_oldbackground
 category: Misc
 date:   2025-08-05 12:21:20 +1000
 permalink: /misc/oldbackground.html
 ---
-
 
 <style>
     :root {
@@ -37,7 +36,7 @@ permalink: /misc/oldbackground.html
         animation-iteration-count: infinite;
         animation-timing-function: linear;
         animation-delay: -30s;
-        z-index: -1;
+        z-index: -2;
         opacity: 50%;
     }
 
@@ -53,7 +52,7 @@ permalink: /misc/oldbackground.html
         animation-duration: var(--length);
         animation-iteration-count: infinite;
         animation-timing-function: linear;
-        z-index: -1;
+        z-index: -2;
         opacity: 50%;
     }
 
@@ -66,11 +65,9 @@ permalink: /misc/oldbackground.html
         transform: rotate3d(1, 1, 0, 30deg);
         width: 2358px;
         height: 1440px;
+        z-index: -1;
     }
 
-    div {
-        font-family: "ArtDeco";
-    }
     #box {
         background: #7fb5db;
         background: radial-gradient(circle, rgba(127, 181, 219, 1) 0%, rgba(35, 57, 75, 1) 100%);
@@ -81,24 +78,17 @@ permalink: /misc/oldbackground.html
         height: 1080px;
         left: 0px;
         top: 0px;
+        z-index: -1;
     }
 </style>
 
-<!doctype html>
-
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>Title</title>
-    </head>
-    <body>
-        <div id="box"></div>
-
-        <!-- <div id="background2"></div>
+<div id="box"></div>
+<div id="background3">
+    <div id="background2"></div>
+    <div id="background"></div>
+</div>
+<!-- <div id="background2"></div>
 -->
-        <div id="background3">
-            <div id="background2"></div>
-            <div id="background"></div>
-        </div>
-    </body>
-</html>
+
+
+
