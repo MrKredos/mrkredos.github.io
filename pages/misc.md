@@ -8,8 +8,7 @@ permalink: /misc/
 
 for stuff that doesn't really fit into any of my categories
 
-# Gaming related
-[My Gaming Journey]({{base.url}}/misc/gaming)
+[Games I Play]({{base.url}}/misc/gaming)
 
 {% assign posts = site.posts %}
 

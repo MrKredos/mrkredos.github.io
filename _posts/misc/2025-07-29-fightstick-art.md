@@ -1,6 +1,6 @@
 ---
 layout: post
-title: fightsticks
+title: fightstick art
 date: 2025-07-29 12:21:20 +1000
 category: Misc
 ---
