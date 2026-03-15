@@ -1,0 +1,23 @@
+---
+layout: post
+title: Understanding One's Self
+date: 2026-01-31
+category: Thoughts
+---
+
+Life feels like a long exploration of finding yourself, and today maybe I have made a huge breakthrough. 
+
+It's been a while since I've really had a lot of time to myself, or rather, the first time in a long time where I have simply sat down and just sat with my thoughts. Usually I am busy thinking about the people around me and managing friendships/relationships, thinking about the future and making sure I have a life I am happy with, thinking about upskilling and hopefully creating a better version of myself. It all kind of just fell into my lap and I started working on them and the speed of my life has slowly been ramping up and suddenly I'm turning 27 and I feel.. not sure the word to put to the feeling. It feels like my time could be used better, I feel unsatisfied with my life but still happy where I am, I feel like I'm getting old and losing my grip, I feel like I'm losing my passion. 
+
+Last night I had gotten a hold of something nice and decided it would be a great day to wind down; get toasted while watching the new movie, Iron Lung. And so I did just that, had a somewhat alright time inside the movie almost falling asleep but still had an alright time here is my review on Iron Lung[^1]. Once I left the cinema I had finally felt it and was a little sceptical of driving home in this state, and so I walked around for a bit, taking in the views, scenery and wildlife of Blacktown on a Friday night, it felt pretty exciting to walk around, a familiar site yet entirely different vibe. It felt new and exciting
+
+Didn't do much, walked to a food store but it was packed as hell. Walked a long walk back to my car and prepped myself for the ride home. I hate to admit it, but I drove home mildly blazed and I really don't have an excuse here, I actually really wanted to see if I could do it. A few doubts in my mind about my current state but I think if you keep your mind occupied and engaged, you can really lock into anything you do while toasted. Some of the most amazing feelings that night, driving on a nice long, quiet and dark road listening to some soft rock tunes, it genuinely felt amazing. I don't think I want to do that again, but holy moly was that an experience. 
+
+You ever get that feeling where you kind of lose yourself in the moment, all sensations building up to a grand release and your body just starts going into a relaxing and almost etheral daze, where you feel like you're moving in 24 frames a second and time is slowed down by a drastic amount, and you can feel each individual frame of that second, the thoughts of that exact second that come to mind before they leave to be forgotten forever, the feeling of the heart beat and all of the blood circulating through your body, the air and the cool oxygen that enters your body and the warm carbon dioxide that leaves, the warm fuzzy feelings of a body processing a foreign yet invited guest and the automatic motions your body has memorised hundreds, if not thousands of times before. ah no? all good. I just wanted to share.
+
+Anyways, I get home, hop into bed straight away and just close my eyes. 
+
+For a solid 1-2 hours, I was just letting my mind wander. I haven't thought about anything unimportant in so long. At first it was just the feeling, and then it lead to my current position in life, my goals and aspirations, and then it lead to my relationships, my family, my friends, old and new. I spent time thinking about all the people in my life and how I feel with them, and I think this is where a huge revelation came to mind. I really, really care about the people in my life, but I don't have time for everyone. I realised that I push a lot of people away, and I come back when it's convenient for me. I like to compare, I like to make sure I get something out of the friendship, and I care what they think of me. I am refusing to put any reason to any of this, because I've learnt that my judgement is not great and I was also not in the right mindset here, it's best to just gather information and let it simmer first. If I died today, I would not be happy with how I treat people in my life and would have too many regrets. I went to bed around 11pm, and stayed up until 2am just thinking about all of this. It was a wake up call for sure. 
+
+
+[^1]: ["an interesting take on the game thats dragged down by the acting."](https://letterboxd.com/mrkredos/film/iron-lung/){:target="_blank"}

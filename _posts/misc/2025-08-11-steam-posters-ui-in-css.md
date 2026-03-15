@@ -184,7 +184,7 @@ I think finding the right <ins>transition</ins> was difficult, and I don't think
     <div class="container" style="justify-content:center; flex:">
         <strong>Blur Background</strong>
         Hover/Tap me!
-        <div class="image" id="blur-demo-image">
+        <div class="image-demo" id="blur-demo-image">
             
             <img src="https://image.tmdb.org/t/p/original/aoV4UeZGy8nM6F59l7KRXPrsK4B.jpg" style="opacity: 0.25;" />
             <img src="https://image.tmdb.org/t/p/original/aoV4UeZGy8nM6F59l7KRXPrsK4B.jpg" class="image-demo" id="blur-demo"> 
@@ -211,10 +211,40 @@ z-index: -1;
 Opacity is 0 on idle and changes to 0.5 on hover. z-index is to always keep it behind. 
 
 ## Drop Shadow
+```css 
+#shadow-demo {
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.5));
+}
 
+#shadow-demo:hover  {
+    filter: drop-shadow(0px 15px 5px rgba(0, 0, 0, 0.2));
+}
 
+```
+Colour changed for better visibility. 
 
+Pretty straight forward, values can be adjusted for better accuracy. 
 
+>NOTE: Drop shadow is attached to the image THUS is affected by transform. Please keep this in mind when adjusting values. 
+
+<div class="three-row" >
+    <div class="container" style="justify-content:center; flex:">
+        <strong>Drop Shadow</strong>
+        Hover/Tap me!
+        <div class="image-demo" id="shadow-demo-image">
+            
+            <img src="https://image.tmdb.org/t/p/original/aoV4UeZGy8nM6F59l7KRXPrsK4B.jpg" />
+        </div>  
+    </div>
+    <div class="container" style="justify-content:center; flex:">
+        <strong>Drop Shadow (with transform)</strong>
+        Hover/Tap me!
+        <div class="image" id="shadow-demo-image">
+            
+            <img src="https://image.tmdb.org/t/p/original/aoV4UeZGy8nM6F59l7KRXPrsK4B.jpg" />
+        </div>  
+    </div>
+</div> 
 
 
 
@@ -254,6 +284,17 @@ Opacity is 0 on idle and changes to 0.5 on hover. z-index is to always keep it b
 
     #rotate3d-demo:hover {
         transform: rotate3d(1, 0, 0, 15deg);
+    }
+
+    #shadow-demo-image {
+        filter: drop-shadow(0px 5px 5px rgba(255, 255, 255, 0.5));
+        opacity: 1; 
+        transition: all 0.6s cubic-bezier(0, 1, 0.4, 1);
+    }
+
+    #shadow-demo-image:hover  {
+        filter: drop-shadow(0px 15px 5px rgba(255, 255, 255, 0.2));
+        transition: all 0.6s cubic-bezier(0, 1, 0.4, 1);
     }
     
     .img-demo {
@@ -388,7 +429,7 @@ Opacity is 0 on idle and changes to 0.5 on hover. z-index is to always keep it b
         max-width: 250px;
         margin-bottom: 12px;
 
-         transform-origin: 50% -10px;
+        transform-origin: 50% -10px;
         transition: transform 0.6s cubic-bezier(0, 1, 0.4, 1);
         
     }
