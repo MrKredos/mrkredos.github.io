@@ -73,8 +73,12 @@ This is two states, and you interpolate between the two.
 ```
 
 <div class="container">
-    <div class="image-demo">
-        <div class="shine-demo" style="text-align: center;">Hover/Tap me!</div>
+    <div class="container">
+        <strong>Shine</strong> <br> 
+        Hover/Tap me!
+    </div> 
+    <div class="image-demo" style="justify-content:center; flex: none;">
+        <div class="shine-demo" style="text-align: center;"></div>
         <img src="https://image.tmdb.org/t/p/original/aoV4UeZGy8nM6F59l7KRXPrsK4B.jpg"/>
     </div>
 </div>
@@ -246,10 +250,15 @@ Pretty straight forward, values can be adjusted for better accuracy.
     </div>
 </div> 
 
+Well, that's that. 
 
+Feel free to use!! 
 
 <style>
 
+    #h2 {
+        position: sticky; 
+    }
     #blur-demo {
         position: absolute; 
         border-radius: 150px;

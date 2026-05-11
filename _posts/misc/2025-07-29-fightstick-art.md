@@ -16,18 +16,18 @@ I've gone through lots of fightsticks over the years. I wish I could put them al
 
 ## [HAUTE42 T13](https://haute42.com/haute-pad-t-series/) <br>
 $150AUD; second hand from a fella in the Sydney TEKKEN community
-![haute42]({{base.url}}/assets/fightsticks/haute42.jpg)
+![haute42](/assets/fightsticks/haute42.jpg)
 Straight up, the best controller I've ever owned and it's not even close. Ticks all of my boxes; non-expensive, good quality, artwork capabilities and buttons that don't feel cheap. It's insane how they've made such a cost efficient product feel so premium, props to the team. 
 
 ## [Waifu Sticks](https://waifusticks.square.site/product/studio-600-commission-inquiry-read-me/69?cp=true&sa=true&sbp=false&q=false) <br> 
 Commissioned; ~$500AUD incl. shipping
-![waifu]({{base.url}}/assets/fightsticks/waifu.jpg)
+![waifu](/assets/fightsticks/waifu.jpg)
 It's a great controller, but not very portable. I treat it like an art piece more than anything. This is probably my favourite "artwork" I've curated. In quotes because I didn't draw anything, all of that is just official art. 
 
 ## [Snack Box Micro PS4 edition](https://junkfoodarcades.com/products/snack-box-micro-leverless-controller)<br> 
 ~$500AUD incl. shipping 
-![snackbox]({{base.url}}/assets/fightsticks/snackbox.jpg)
-I don't mean to smear the name of JunkFood but the quality control is not great (a lot of my friends have issues with these controllers; be it port issues, button issues),. the build itself is quite flimsy for the price (plastic housing) and not only that but I bought the PS4 version which means I can't even play PS5 games without a converter which adds like $100AUD+. I suppose that's nobody's fault but my own, but it stings. My controller works but it has some problems, some of the buttons double press or don't activate at all and probably need replacing, and this is only after a year of regular use, which I think is kind of ridiculous considering the price point.
+![snackbox](/assets/fightsticks/snackbox.jpg)
+I don't mean to smear the name of JunkFood but the quality control is not great (a lot of my friends have issues with these controllers; be it port issues, button issues), the build itself is quite flimsy for the price (plastic housing) and not only that but I bought the PS4 version which means I can't even play PS5 games without a converter which adds like $100AUD+. I suppose that's nobody's fault but my own, but it stings. My controller works but it has some problems, some of the buttons double press or don't activate at all and probably need replacing, and this is only after a year of regular use, which I think is kind of ridiculous considering the price point.
 
 [Hori Real Arcade Pro. Kai $200AUD](https://www.amazon.com.au/Hori-Real-Arcade-Pro-Playstation/dp/B00SULMRI4)<br> 
 $150AUD second hand, from some guy in Sydney, NSW

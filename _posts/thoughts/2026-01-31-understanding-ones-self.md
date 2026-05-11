@@ -5,7 +5,7 @@ date: 2026-01-31
 category: Thoughts
 ---
 
-Life feels like a long exploration of finding yourself, and today maybe I have made a huge breakthrough. 
+Life feels like a long exploration of finding yourself, and today maybe I have made a helpful breakthrough. 
 
 It's been a while since I've really had a lot of time to myself, or rather, the first time in a long time where I have simply sat down and just sat with my thoughts. Usually I am busy thinking about the people around me and managing friendships/relationships, thinking about the future and making sure I have a life I am happy with, thinking about upskilling and hopefully creating a better version of myself. It all kind of just fell into my lap and I started working on them and the speed of my life has slowly been ramping up and suddenly I'm turning 27 and I feel.. not sure the word to put to the feeling. It feels like my time could be used better, I feel unsatisfied with my life but still happy where I am, I feel like I'm getting old and losing my grip, I feel like I'm losing my passion. 
 
