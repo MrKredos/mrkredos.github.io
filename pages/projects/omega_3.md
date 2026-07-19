@@ -62,7 +62,7 @@ It's hard to see due to the compression and the low bitrate, but there is a play
 
 Playlist is just music from WWE, unfortunately some of the music was copyrighted so we had to mute parts of the vod. I think in future we will only be using copyright free music, or better yet, music will only show on the livestream but not the VOD. 
 
-# [FGC Scoreboard]({{base.url}}/projects/fgcscoreboard)
+# [FGC Scoreboard]({{base.url}}/projects/fgcscoreboard){:target="_blank"}
 Replaced StreamControl, as it was too cumbersome to use. 
 
 See link for how it works and how to use it. 

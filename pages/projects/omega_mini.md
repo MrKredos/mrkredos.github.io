@@ -9,9 +9,9 @@ permalink: /projects/omega_mini-tekken8.html
 
 
 body {
-    background: url("{{base.url}}/assets/omega_mini_tekken8/omega-mini-background.gif");
+    background: url("{{base.url}}/assets/omega_mini_tekken8/omega-mini-background.png");
     background-size: 100%; 
-    color: #f0f0f0ff;
+    /* color: #f0f0f0ff; */ 
 }
 
 .page-content { 
@@ -70,60 +70,51 @@ body {
 <img src="{{base.url}}/assets/omega_mini_tekken8/info.png">
 
 ### Intro
-<ins>Theme:</ins> Basic,  <br>
-It was a little difficult because people were burnt out and I didn't have much to work with, so I tried my best. The theme that I tried to go for was more related to art deco with a focus on the classy side of it. Didn't really fit the heroes and villian theme thinking about it lol 
+<ins>Theme:</ins> Paint strokes, rough around the edges, riffing off original logo (see [OMEGA 1]({{base.url}}/projects/omega_1.html){:target="_blank"}) <br>
+We just wanted a simple logo to be easily changed. I think our original idea for Mini version of OMEGA is that we have small, one day event (rather than regular OMEGA which is a weekend long event with various games) for a specific game and call it OMEGA Mini: Game Name here. And by making it simple and plain, we can adjust the logo colour for each game. TEKKEN is red because of the logo, other games we would need to think about it. Having it monochromatic makes this easier.
 
-OMEGA is a fighting game tournament ran twice a year in Parramatta, NSW, organised by the Western Sydney Fighting Game Club for Western Sydney University, a student run club by a bunch of ex-students and non-students (and a few students).
+Fun little anecdote: Our designer was asking us for ideas for how we can design this logo and how to proceed with the theming of OMEGA Mini, and I told him about the lower case OMEGA and really pushed for it to work. If you do not know, the lower case OMEGA looks like a pair of balls and in no world would this ever work. I told this to him at the very end of our long meeting after everyone's ideas and after everyone left he broke down (jokingly? I really don't know lol, I just heard about it afterwards) and blamed me for this bombshell of information. He likes to make things work naturally, he likes to make things make sense, and having this information where he could not ever make this work ruined him. I suppose I understood where he was coming from and ended up forgetting about it, but I kinda wanted to see how he would approach this problem lol
+
+OMEGA Mini is a fighting game tournament that plans to run on occasion when we want to run something a bit smaller and specialised, in order to not confuse people on the branding of OMEGA. 
 
 # Showcase
 <video width="100%" height="100%" controls>
-<source src="{{base.url}}/assets/omega_4/showcase.mp4" type="video/mp4">
+<source src="{{base.url}}/assets/omega_mini_tekken8/showcase.mp4" type="video/mp4">
 </video>
-Playlist was just classical music. I thought all classical music was copyright free because of how old they are, but apparently different recordings have copyright on them... so some of the vods had been caught because of that. But not a big deal since we don't make any money from this. 
+Very simple, only 3 scenes effectively. The second scene should show PlayerCam, GameplayCapture and CommentatorCam and CrowdCam (we have a room camera). 
 
 # [FGC Scoreboard]({{base.url}}/projects/fgcscoreboard)
-Reused from previous OMEGA, with some minor adjustments, namely 4 player capabilities and crew battles. I want to say more but it's all pretty self explanatory I think.
-
-Crew battles creates HTML when adding players, and kills the HTML when removing. It actually works a lot better than my current implementation, so maybe one day I'll rebuild everything from scratch with my current knowledge (never gonna happen knowing me).
-
-4 Player capabilities, I just added 2 extra players, and maybe my code a bit more scalable for when we need have more than 4 players. Not sure when that will be needed, but when the time comes I'll make it.
-
-See link for how it works and how to use it. 
+Explained in previous OMEGAs. I didn't make any changes this time around, because I was kinda busy around this time. 
 
 # Background
-**First Attempt**
 <video width="100%" height="100%" controls>
-<source src="{{base.url}}/assets/omega_4/firstattempt.mp4" type="video/mp4">
+<source src="{{base.url}}/assets/omega_mini_tekken8/background-omega-mini.mp4" type="video/mp4">
 </video>
-[oldbackground.html]({{base.url}}/misc/oldbackground.html)
-
-
-**Final**
-<video width="100%" height="100%" controls>
-<source src="{{base.url}}/assets/omega_4/background.mp4" type="video/mp4">
-</video>
-
-I spent too much time trying to make a really cool background.
-
-For the longest time, I wanted to create a background that you can change the details for (like the player names showing up, or maybe the game name), and the perfect way for this is to do this via HTML/CSS/JS and reading values from localStorage. It was just a proof of concept, but it didn't work out so I didn't go too much further into it. 
-
-The issue with my original.html implementation is that it is too heavy. Everytime you leave the scene, it will do some cpu saving measures which will affect the background when you re-enter the scene. It will jitter a bunch, and this happens on my pretty hefty computer. I did some research and websites only work with 1 cpu core (since you have so many tabs open) and this is just something you have to work around. If I were to attempt this again, maybe keep the performance tight on the background.html (currently rotates on the 3D plane which adds a lot of caclulations for anti-aliasing) and also maybe give myself like 0.5 seconds of leeway before transitioning into a new scene just for the background.html to get itself ready.
+I guess you can see it in the background of this page already, but if you wanted an easy way to download, here it is. I asked for the image he used for the background from the poster from our Marketing guy (Leo) and I just resized it, zoomed in a bit and just keyframed it so that it kinda looks like a rough sketchbook-esque background. Very simple stuff, wasn't trying to go too difficult here. 
 
 # Transition
 
+Simple mask, first time just playing around with this by itself, kinda looks nice and will look into this one further in another OMEGA. I think masks only look great if next scene looks drastically different to the previous. If you look at [OMEGA 4's]({{base.url}}/projects/omega_4#:~:text=Showcase){:target="_blank"} transition (in the showcase video), sometimes you can't even tell that the scene has changed unless any detail has changed at all. Just something to note, I think it still looks nice either way and it's subtle, cheap (performance wise) and easy to make and use! 
+
+**Verson 1**
 <video width="100%" height="100%" controls>
-<source src="{{base.url}}/assets/omega_4/transition.mp4" type="video/mp4">
+<source src="{{base.url}}/assets/omega_mini_tekken8/transition.mp4" type="video/mp4">
 </video>
-Learned about masks! OBS has Mask capabilities and so I just did something simple. I liked the idea of the 3rd Strike transition, (forgot what it's called, I think venetian blinds?) but I also didn't like how static it was and just did a gradient time mask that would focus on a specific spot. The circle actually ended at a logo for the event, but I ended up scrapping that but keeping the time mask. 
+
+**Version 2**
+<video width="100%" height="100%" controls>
+<source src="{{base.url}}/assets/omega_mini_tekken8/transition2.mp4" type="video/mp4">
+</video>
+
 
 # Assets
 
 Good friend [Leo](https://x.com/lonkdoodle){:target="_blank"} created all of the art assets. Amazing artist and one of the tournament organisers. I'm more of a curator who takes an idea and runs away with it. 
 
 ### Fonts used
-[ArtDeco MN](https://fonts.adobe.com/fonts/artdeco-mn){:target="_blank"}. ArtDeco, nothing much to say. 
+[Brushot](https://www.dafont.com/brushot.font){:target="_blank"}. IDK where I got this from, I think Leo used it and I just asked him for it. 
 
-[CopperPlateGothic](https://learn.microsoft.com/en-us/typography/font-list/copperplate-gothic){:target="_blank"}. Pretty sure it comes with Windows? I can't remember where I found this to be honest. 
+[ChunkyFunks](https://www.dafont.com/chunky-funks.font){:target="_blank"}. Pretty nice, thick font. 
 
 Trying to move away from Bebas Neue just because I use it too much. 
 
